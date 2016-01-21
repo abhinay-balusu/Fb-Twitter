@@ -8,13 +8,28 @@
 
 #import "AppDelegate.h"
 
+
 @implementation AppDelegate
+
+//Facebook call back
+- (BOOL)application:(UIApplication *)application  openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication       annotation:(id)annotation
+{
+    // attempt to extract a token from the url
+    [FBAppCall handleOpenURL:url  sourceApplication:sourceApplication  fallbackHandler:^(FBAppCall *call)
+     {
+         NSLog(@"In fallback handler");
+     }];
+    return YES;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    FbTwitterShareViewController *fbtwitterVC=[[FbTwitterShareViewController alloc]init];
+    self.window.rootViewController=fbtwitterVC;
     [self.window makeKeyAndVisible];
     return YES;
 }
