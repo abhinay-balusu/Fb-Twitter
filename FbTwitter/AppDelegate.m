@@ -1,10 +1,4 @@
-//
-//  AppDelegate.m
-//  FbTwitter
-//
-//  Created by tanla on 24/06/14.
-//  Copyright (c) 2014 tanla. All rights reserved.
-//
+
 
 #import "AppDelegate.h"
 
