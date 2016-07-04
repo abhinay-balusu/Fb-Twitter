@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F73BE011D2B111700336223 /* SocialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F73BE001D2B111700336223 /* SocialController.m */; };
+		9F73BE051D2B112500336223 /* FbTwitterShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F73BE031D2B112500336223 /* FbTwitterShareViewController.m */; };
+		9F73BE061D2B112500336223 /* FbTwitterShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F73BE041D2B112500336223 /* FbTwitterShareViewController.xib */; };
 		A2A5A4431959936E003B6FE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A5A4421959936E003B6FE6 /* Foundation.framework */; };
 		A2A5A4451959936E003B6FE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A5A4441959936E003B6FE6 /* CoreGraphics.framework */; };
 		A2A5A4471959936E003B6FE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A5A4461959936E003B6FE6 /* UIKit.framework */; };
@@ -19,8 +22,6 @@
 		A2A5A45E1959936E003B6FE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A5A4461959936E003B6FE6 /* UIKit.framework */; };
 		A2A5A4661959936E003B6FE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2A5A4641959936E003B6FE6 /* InfoPlist.strings */; };
 		A2A5A4681959936E003B6FE6 /* FbTwitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A5A4671959936E003B6FE6 /* FbTwitterTests.m */; };
-		A2A5A4741959938A003B6FE6 /* FbTwitterShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A5A47219599389003B6FE6 /* FbTwitterShareViewController.m */; };
-		A2A5A4751959938A003B6FE6 /* FbTwitterShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2A5A47319599389003B6FE6 /* FbTwitterShareViewController.xib */; };
 		A2A5A692195994BF003B6FE6 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A5A691195994BF003B6FE6 /* Social.framework */; };
 		A2A5A694195994C6003B6FE6 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A5A693195994C6003B6FE6 /* Accounts.framework */; };
 		A2A5A6961959967A003B6FE6 /* cabDetails.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2A5A6951959967A003B6FE6 /* cabDetails.jpg */; };
@@ -35,7 +36,6 @@
 		A2A5A6B8195997DC003B6FE6 /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A5A6AB195997DC003B6FE6 /* OARequestParameter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A2A5A6B9195997DC003B6FE6 /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A5A6AD195997DC003B6FE6 /* OAServiceTicket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A2A5A6BA195997DC003B6FE6 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A5A6AF195997DC003B6FE6 /* OAToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A2A5A6BD19599801003B6FE6 /* SocialController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A5A6BC19599801003B6FE6 /* SocialController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F73BDFF1D2B111700336223 /* SocialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocialController.h; path = FbTwitter/SocialController.h; sourceTree = "<group>"; };
+		9F73BE001D2B111700336223 /* SocialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocialController.m; path = FbTwitter/SocialController.m; sourceTree = "<group>"; };
+		9F73BE021D2B112500336223 /* FbTwitterShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FbTwitterShareViewController.h; sourceTree = "<group>"; };
+		9F73BE031D2B112500336223 /* FbTwitterShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FbTwitterShareViewController.m; sourceTree = "<group>"; };
+		9F73BE041D2B112500336223 /* FbTwitterShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FbTwitterShareViewController.xib; sourceTree = "<group>"; };
 		A2A5A43F1959936E003B6FE6 /* FbTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FbTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A5A4421959936E003B6FE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A2A5A4441959936E003B6FE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,9 +70,6 @@
 		A2A5A4631959936E003B6FE6 /* FbTwitterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FbTwitterTests-Info.plist"; sourceTree = "<group>"; };
 		A2A5A4651959936E003B6FE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2A5A4671959936E003B6FE6 /* FbTwitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FbTwitterTests.m; sourceTree = "<group>"; };
-		A2A5A47119599389003B6FE6 /* FbTwitterShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FbTwitterShareViewController.h; sourceTree = SOURCE_ROOT; };
-		A2A5A47219599389003B6FE6 /* FbTwitterShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FbTwitterShareViewController.m; sourceTree = SOURCE_ROOT; };
-		A2A5A47319599389003B6FE6 /* FbTwitterShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FbTwitterShareViewController.xib; sourceTree = SOURCE_ROOT; };
 		A2A5A691195994BF003B6FE6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		A2A5A693195994C6003B6FE6 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		A2A5A6951959967A003B6FE6 /* cabDetails.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cabDetails.jpg; path = ../cabDetails.jpg; sourceTree = "<group>"; };
@@ -92,8 +94,6 @@
 		A2A5A6AE195997DC003B6FE6 /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToken.h; sourceTree = "<group>"; };
 		A2A5A6AF195997DC003B6FE6 /* OAToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAToken.m; sourceTree = "<group>"; };
 		A2A5A6B0195997DC003B6FE6 /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
-		A2A5A6BB19599801003B6FE6 /* SocialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialController.h; sourceTree = "<group>"; };
-		A2A5A6BC19599801003B6FE6 /* SocialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,13 +159,13 @@
 		A2A5A4481959936E003B6FE6 /* FbTwitter */ = {
 			isa = PBXGroup;
 			children = (
+				9F73BE021D2B112500336223 /* FbTwitterShareViewController.h */,
+				9F73BE031D2B112500336223 /* FbTwitterShareViewController.m */,
+				9F73BE041D2B112500336223 /* FbTwitterShareViewController.xib */,
 				A2A5A4511959936E003B6FE6 /* AppDelegate.h */,
 				A2A5A4521959936E003B6FE6 /* AppDelegate.m */,
 				A2A5A6BE1959A907003B6FE6 /* Social Class */,
 				A2A5A4541959936E003B6FE6 /* Images.xcassets */,
-				A2A5A47119599389003B6FE6 /* FbTwitterShareViewController.h */,
-				A2A5A47219599389003B6FE6 /* FbTwitterShareViewController.m */,
-				A2A5A47319599389003B6FE6 /* FbTwitterShareViewController.xib */,
 				A2A5A4491959936E003B6FE6 /* Supporting Files */,
 			);
 			path = FbTwitter;
@@ -257,8 +257,8 @@
 		A2A5A6BE1959A907003B6FE6 /* Social Class */ = {
 			isa = PBXGroup;
 			children = (
-				A2A5A6BB19599801003B6FE6 /* SocialController.h */,
-				A2A5A6BC19599801003B6FE6 /* SocialController.m */,
+				9F73BDFF1D2B111700336223 /* SocialController.h */,
+				9F73BE001D2B111700336223 /* SocialController.m */,
 			);
 			name = "Social Class";
 			path = ..;
@@ -340,11 +340,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2A5A4751959938A003B6FE6 /* FbTwitterShareViewController.xib in Resources */,
 				A2A5A6B1195997DC003B6FE6 /* ___FHSTwitterEngine___m___AvYL5s in Resources */,
 				A2A5A44D1959936E003B6FE6 /* InfoPlist.strings in Resources */,
 				A2A5A6961959967A003B6FE6 /* cabDetails.jpg in Resources */,
 				A2A5A4551959936E003B6FE6 /* Images.xcassets in Resources */,
+				9F73BE061D2B112500336223 /* FbTwitterShareViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,16 +363,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F73BE011D2B111700336223 /* SocialController.m in Sources */,
 				A2A5A6B7195997DC003B6FE6 /* OAMutableURLRequest.m in Sources */,
-				A2A5A6BD19599801003B6FE6 /* SocialController.m in Sources */,
 				A2A5A6B3195997DC003B6FE6 /* NSString+URLEncoding.m in Sources */,
 				A2A5A6B4195997DC003B6FE6 /* Base64TranscoderFHS.c in Sources */,
 				A2A5A6B5195997DC003B6FE6 /* OAConsumer.m in Sources */,
 				A2A5A6B6195997DC003B6FE6 /* OAHMAC_SHA1SignatureProvider.m in Sources */,
 				A2A5A6B9195997DC003B6FE6 /* OAServiceTicket.m in Sources */,
+				9F73BE051D2B112500336223 /* FbTwitterShareViewController.m in Sources */,
 				A2A5A4531959936E003B6FE6 /* AppDelegate.m in Sources */,
 				A2A5A44F1959936E003B6FE6 /* main.m in Sources */,
-				A2A5A4741959938A003B6FE6 /* FbTwitterShareViewController.m in Sources */,
 				A2A5A6BA195997DC003B6FE6 /* OAToken.m in Sources */,
 				A2A5A6B2195997DC003B6FE6 /* FHSTwitterEngine.m in Sources */,
 				A2A5A6B8195997DC003B6FE6 /* OARequestParameter.m in Sources */,
@@ -586,6 +586,7 @@
 				A2A5A46D1959936E003B6FE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2A5A46E1959936E003B6FE6 /* Build configuration list for PBXNativeTarget "FbTwitterTests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +595,7 @@
 				A2A5A4701959936E003B6FE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
